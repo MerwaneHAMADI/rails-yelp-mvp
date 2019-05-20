@@ -1,0 +1,5 @@
+<%= simple_form_for(@review, url: restaurant_reviews_path(@restaurant)) do |f| %>
+<%= f.input :content %>
+<%= f.input :rating %>
+<%= f.submit 'New Review' %>
+<% end  %>
